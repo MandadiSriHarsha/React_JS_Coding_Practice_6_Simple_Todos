@@ -1,0 +1,42 @@
+.bg-container {
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.todos-card {
+  border-radius: 13px;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-style: solid;
+  padding: 10px;
+  font-family: 'Roboto';
+  text-align: center;
+  width: 90vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.todos-card-heading {
+  font-size: 30px;
+  color: #ff8542;
+  font-weight: bold;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .todos-card {
+    width: 80vw;
+  }
+  .todos-card-heading {
+    font-size: 40px;
+  }
+}
